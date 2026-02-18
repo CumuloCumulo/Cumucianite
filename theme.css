@@ -44,41 +44,41 @@
 } */
 
 .theme-dark {
-  --background-primary: #111111;
-  --background-primary-alt: #0a0a0a;
-  --background-secondary: #181818;
-  --background-secondary-alt: #0a0a0a;
-  --text-normal: #bebebe;
-  --text-accent: #0fb6d6;
-  --text-sub-accent: #f4569d;
-  --text-dim: #45aaff;
-  --text-faint: #7aa2f7;
+  --background-primary: #080e18;
+  --background-primary-alt: #050b12;
+  --background-secondary: #0d1822;
+  --background-secondary-alt: #050b12;
+  --text-normal: #c0d8e8;
+  --text-accent: #00d8f2;
+  --text-sub-accent: #3dff8a;
+  --text-dim: #4a90e0;
+  --text-faint: #6ab0d0;
   --text-title-h1: var(--text-accent);
-  --text-title-h2: #cbdbe5;
-  --text-title-h3: #cbdbe5;
-  --text-title-h4: #cbdbe5;
-  --text-title-h5: #cbdbe5;
+  --text-title-h2: #c8dce8;
+  --text-title-h3: #c8dce8;
+  --text-title-h4: #c8dce8;
+  --text-title-h5: #c8dce8;
   --text-link: #b4b4b4;
-  --text-a: #6bcafb;
-  --text-a-hover: #6bcafb;
-  --text-mark: #263d92;
+  --text-a: #60c8e8;
+  --text-a-hover: #60c8e8;
+  --text-mark: #0d2540;
   --code-background: var(--background-secondary);
-  --interactive-accent: rgba(14, 210, 247, 0.5);
-  --interactive-accent-hover: rgba(14, 210, 247, 0.8);
+  --interactive-accent: rgba(0, 216, 242, 0.5);
+  --interactive-accent-hover: rgba(0, 216, 242, 0.8);
   --interactive-before: #5e6565;
   --blockquote-border: #4aa8fb;
-  --tag-background: rgba(14, 210, 247, 0.15);
-  --interactive-accent-rgb: #3dd7fb;
+  --tag-background: rgba(0, 216, 242, 0.15);
+  --interactive-accent-rgb: #00d8f2;
   --font-family-editor: 'Rubik';
   --font-family-preview: 'Rubik';
-  --bg-sub-accent-55: rgba(244, 86, 157, 0.55);
-  --bg-accent-55: rgba(14, 210, 247, 0.55);
-  --bg-accent-25: rgba(14, 210, 247, 0.25);
-  --text-highlight-bg: rgba(244, 86, 157, 0.25);
-  --background-modifier-border: rgba(14, 210, 247, 0.05);
-  --table-border-color: rgb(14, 210, 247, 0.15);
+  --bg-sub-accent-55: rgba(61, 255, 138, 0.55);
+  --bg-accent-55: rgba(0, 216, 242, 0.55);
+  --bg-accent-25: rgba(0, 216, 242, 0.25);
+  --text-highlight-bg: rgba(61, 255, 138, 0.25);
+  --background-modifier-border: rgba(0, 216, 242, 0.05);
+  --table-border-color: rgba(0, 216, 242, 0.15);
   --test-color: rgb(122, 162, 247);
-  --editor-border-color: #101014;
+  --editor-border-color: #060c16;
 }
 
 /******************************************
@@ -334,7 +334,7 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 
 /** SETTINGS STYLES **/
 .checkbox-container.is-enabled {
-  background-color: rgba(14, 210, 247, 0.7);
+  background-color: rgba(0, 216, 242, 0.7);
 }
 
 .workspace-drop-overlay {
@@ -445,19 +445,19 @@ span.cm-formatting-list,
   0% {
     width: 0;
     height: 0;
-    border-color: #212121;
+    border-color: #0a1520;
     transform: translate(0, 0) rotate(45deg);
   }
   33% {
     width: 4px;
     height: 0;
-    border-color: #212121;
+    border-color: #0a1520;
     transform: translate(0, 0) rotate(45deg);
   }
   100% {
     width: 4px;
     height: 8px;
-    border-color: #212121;
+    border-color: #0a1520;
     transform: translate(0, -8px) rotate(45deg);
   }
 }
@@ -616,7 +616,7 @@ strong {
   padding: 0;
   color: #7aa2f7;
   background-color: #7aa2f7;
-  background-image: linear-gradient(62deg, #6bcafb 0%, #38bdf8 100%) !important;
+  background-image: linear-gradient(62deg, #00d8f2 0%, #3dff8a 100%) !important;
 }
 
 strong .math.math-inline .MathJax {
@@ -643,7 +643,7 @@ strong kbd {
 
 .cm-em,
 em {
-  color: #e8b04b !important;
+  color: #3dff8a !important;
   font-family: OperatorMonoSSmLig-Book, Rubik, var(--default-font) !important;
 }
 
@@ -846,7 +846,7 @@ h6 a.tag {
 }
 
 .cm-s-obsidian span.cm-inline-code {
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(0, 216, 242, 0.9) !important;
 }
 
 .cm-s-obsidian span.cm-inline-code.cm-formatting-code {
@@ -876,7 +876,7 @@ h6 a.tag {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.6rem;
-  background: rgba(10, 10, 10, 0.86);
+  background: rgba(5, 10, 18, 0.86);
   border-radius: 8px;
   padding: 0.1em 0.8em;
   margin-top: 0.3rem;
@@ -888,7 +888,7 @@ h6 a.tag {
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-bg {
-  background-color: #181818;
+  background-color: #0d1822;
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-begin-bg {
@@ -907,7 +907,7 @@ h6 a.tag {
   margin-top: 1.5em;
   border-top-left-radius: 0.3em;
   border-top-right-radius: 0.3em;
-  background-color: #181818;
+  background-color: #0d1822;
 }
 
 .cm-s-obsidian div.HyperMD-codeblock-end-bg {
@@ -932,7 +932,7 @@ pre[class*='language-']:before {
   color: var(--text-accent) !important;
   content: '';
   text-transform: uppercase;
-  background: rgba(10, 10, 10, 0.86);
+  background: rgba(5, 10, 18, 0.86);
   border-radius: 8px;
   padding: 0.1em 0.8em;
   z-index: 10;
@@ -999,16 +999,16 @@ blockquote {
 .markdown-preview-view blockquote {
   position: relative;
   padding: 1rem 2rem 1rem 3rem;
-  color: #bdbdbd;
+  color: #b8d0e0;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   margin-bottom: 2em;
   margin-right: 0 !important;
-  border-left: 3px rgba(14, 210, 247, 0.5) solid;
+  border-left: 3px rgba(0, 216, 242, 0.5) solid;
   border-top: transparent;
   border-bottom: transparent;
   border-right: transparent;
-  background: linear-gradient(135deg, rgba(30, 30, 30, 0.6), #111111);
+  background: linear-gradient(135deg, rgba(8, 16, 28, 0.6), #080e18);
 }
 
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote::before,
@@ -1019,7 +1019,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 60%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), transparent);
+  background: linear-gradient(90deg, rgba(0, 216, 242, 0.5), transparent);
 }
 
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote + .HyperMD-quote::before {
@@ -1034,7 +1034,7 @@ blockquote {
   left: 0px;
   height: 2px;
   width: 25%;
-  background: linear-gradient(90deg, rgba(13, 185, 215, 0.5), transparent);
+  background: linear-gradient(90deg, rgba(0, 216, 242, 0.5), transparent);
 }
 
 .HyperMD-quote.HyperMD-quote-2::before,
@@ -1086,11 +1086,11 @@ blockquote {
   ),
 .markdown-preview-view code {
   overflow-wrap: break-word;
-  background-color: rgba(14, 210, 247, 0.05);
+  background-color: rgba(0, 216, 242, 0.05);
   word-wrap: break-word;
   padding: 0 5px;
   border-radius: 0.3rem;
-  color: rgba(14, 210, 247, 0.9) !important;
+  color: rgba(0, 216, 242, 0.9) !important;
 }
 
 .theme-dark :not(pre) > code[class*='language-'],
@@ -1176,7 +1176,7 @@ pre::-webkit-scrollbar {
 code[class*='language-'],
 pre[class*='language-'] {
   color: #ccc;
-  background: #1e1e1e;
+  background: #101e2e;
   text-shadow: none;
   font-family: 'OperatorMonoSSmLig-Book', PT Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono',
     monospace !important;
@@ -1223,7 +1223,7 @@ code[class*='language-'] ::selection {
 /* Code blocks */
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: #1e1e1e;
+  background: #101e2e;
 }
 
 /* Inline code */
