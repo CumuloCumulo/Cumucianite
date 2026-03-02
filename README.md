@@ -1,4 +1,12 @@
-# Cumucianite
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1500&color=00d8f2&vCenter=true&width=700&repeat=false&lines=Cumucianite+%C2%B7+Obsidian+Theme;Deep+Blue-Black+Dark+Theme;Electric+Cyan+%2B+Neon+Lime" alt="Main Title" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=3000&color=3dff8a&vCenter=true&width=600&repeat=true&lines=Sawano%5BnZk%5D+Inspired+%7C+Cyan+Gradient+Bold+%7C+Dracula+Code;Obsidian+1.1.0%2B+Compatible+%7C+Dark+Mode+Only" alt="Theme Tagline" />
+</p>
+
+---
 
 A dark Obsidian theme with a deep blue-black palette and electric cyan accents, inspired by the album artwork of SawanoHiroyuki[nZk].
 
